@@ -1,0 +1,25 @@
+{
+  "name": "borilla",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Anssi Herranen <anssi.herranen@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel tests/index.html"
+  },
+  "devDependencies": {
+    "@types/ramda": "^0.27.6",
+    "jest": "^26.0.1",
+    "parcel": "^2.0.0-alpha.3.2",
+    "ts-jest": "^26.0.0",
+    "ts-node": "^8.10.1",
+    "tslint": "^6.1.2",
+    "typescript": "^3.9.3"
+  },
+  "dependencies": {
+    "fetch-ponyfill": "^6.1.0",
+    "p-limit": "^2.3.0",
+    "ramda": "^0.27.0",
+    "standardized-audio-context": "^24.1.15"
+  }
+}
